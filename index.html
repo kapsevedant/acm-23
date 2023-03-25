@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <!--=============== Bootstrap 5 Icons ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/svpcet-acm-logo.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>SVPCET-ACM</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img src="assets/img/svpcet-acm-logo.png" class="nav-img"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#domains" class="nav__link">Domains</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Events</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="team/team.html" class="nav__link">Our Team</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home-container">
+                <div class="row text-center">
+                    <div class="col-lg-6">
+                        <div class="home-info">
+                            <p class="text-white">SVPCET <span class="text-dark"><b>ACM</b></span> <br> STUDENT CHAPTER</p>
+                            <button class="join-us-btn">Join US</button>
+
+                            <div class="home-social-icons mt-5">
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-github"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="home-img">
+                            <img src="assets/img/community7.svg" class="home-img-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--==================== ABOUT ====================-->
+        <section class="about_section section" id="about">
+            <div class="about_container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 about__img text-center">
+                        <img src="assets/img/student3.svg" class="about__img__color">
+                    </div>
+                    <div class="col-lg-6 col-md-6 about_desc">
+                        <h3 class="mt-5 mb-4">About Us</h3>
+                        <p class="text-justify">Association for Computing Machinery (ACM) is the world's largest
+                            educational
+                            and scientific computing society, delivers resources that advance computing as a science and
+                            profession. SVPCET ACM is a Student Chapter of the College level ACM organization. It is a
+                            committee focused on the overall development and progress of students in SVPCET. We work in
+                            different fields like Technical, Creative, Publicity, Video Editing, Management, Social
+                            Media,
+                            and Editorial. Our Mission as a Committee is to bring together and train students in the
+                            domains
+                            of creative thinking, problem-solving, programming, and management.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DOMAINS ====================-->
+        <section class="discover section" id="domains">
+            <h2 class="section__title"> Domains </h2>
+            <p class="domain__description">In all fields of domais that offer every individual opportunity to grow
+            </p>
+            <div class="main-domain">
+                <div class="row domain-card-main">
+                    <div class="domain-card col-lg-4 col-md-6 align-items-stretch">
+                        <p class="icon-size"><i class="bi-laptop"></i></p>
+                        <h5 class="mt-3">Technical</h5>
+                        <p class="mt-3">Lorem ipsum dolor sit dolore aliquid nisi soluta a natus perspiciatis aut ad
+                            beatae.</p>
+                    </div>
+                    <div class="domain-card col-lg-4 col-md-6 align-items-stretch">
+                        <p class="icon-size"><i class="bi-braces"></i></p>
+                        <h5 class="mt-3">Competetive Programming</h5>
+                        <p class="mt-3">Lorem ipsum dolor sit dolore aliquid nisi soluta a natus perspiciatis aut ad
+                            beatae.</p>
+                    </div>
+                    <div class="domain-card col-lg-4 col-md-6  align-items-stretch">
+                        <p class="icon-size"><i class="bi-code-slash"></i></p>
+                        <h5 class="mt-3">Web Development</h5>
+                        <p class="mt-3">Lorem ipsum dolor sit dolore aliquid nisi soluta a natus perspiciatis aut ad
+                            beatae.</p>
+                    </div>
+                    <div class="domain-card col-lg-4 col-md-6 align-items-stretch">
+                        <p class="icon-size"><i class="bi-journal"></i></p>
+                        <h5 class="mt-3">Management</h5>
+                        <p class="mt-3">Lorem ipsum dolor sit dolore aliquid nisi soluta a natus perspiciatis aut ad
+                            beatae.</p>
+                    </div>
+                    <div class="domain-card col-lg-4 col-md-6  align-items-stretch">
+                        <p class="icon-size"><i class="bi-ui-radios-grid"></i></p>
+                        <h5 class="mt-3">Creative</h5>
+                        <p class="mt-3">Lorem ipsum dolor sit dolore aliquid nisi soluta a natus perspiciatis aut ad
+                            beatae.</p>
+                    </div>
+                    <div class="domain-card col-lg-4 col-md-6 align-items-stretch">
+                        <p class="icon-size"><i class="bi-graph-up"></i></p>
+                        <h5 class="mt-3">Publicity</h5>
+                        <p class="mt-3">Lorem ipsum dolor sit dolore aliquid nisi soluta a natus perspiciatis aut ad
+                            beatae.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section">
+            <h2 class="section__title">Previous Glimpses <br>Our achievments</h2>
+
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">20</h2>
+                        <span class="experience__description">Months <br> experience</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">25</h2>
+                        <span class="experience__description">Events <br> conducted</span>
+                    </div>
+
+                    <div class="experience__data">
+                        <h2 class="experience__number">100+</h2>
+                        <span class="experience__description">Active <br> members</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="slider-container">
+                <h4 class="mt-5 text-center mb-5">Gallery</h4>
+                <div class="row slider">
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/home1.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/home1.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/home1.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/home1.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/home1.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/home1.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/home1.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/discover4.jpg">
+                    </div>
+                    <div class="col-md-12 slider-img">
+                        <img src="assets/img/discover4.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="contact section">
+            <h2 class="section__title"> Contact-us </h2>
+            <div class="row mt-5">
+                <div class="col-lg-7">
+                    <div class="clg-addr">
+
+                        <h5>Address:</h5>
+                        <i class="bi bi-geo-alt"></i>
+                        <p>ST. Vincent Pallotti College Of Engineering & Technology</p>
+                    </div>
+                    <div class="acm-email mt-4">
+
+                        <h5>Email us:</h5>
+                        <i class="bi bi-envelope"></i>
+                        <p>acmsvpcet@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 college-map">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.3498582022573!2d79.04554451744383!3d21.004670800000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bdc6b03bfded%3A0x51964eb66fa3ec5e!2sSt.%20Vincent%20Pallotti%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1679621300630!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SPONSORS ====================-->
+        <section class="sponsor section">
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <img src="assets/img/acm-image.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/college-name.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer-container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p class="svp_acm_chp">SVPCET ACM STUDENT CHAPTER</p><br>
+                    <p class="svp_clg_name">ST. Vincent Pallotti College Of Engineering & Technology, <br>Gavasi
+                        Manapur, Wardha Road, Nagpur</p><br>
+                    <p id="contact-id">Email : </p>
+                    <p id="contact-id">Phone : </p>
+
+                </div>
+                <!--  -->
+                <div class="col-lg-4 footer-links">
+                    <p class="">Our Domains</p><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Technical</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Competative Prgramming</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Web Dev</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Management</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Creative</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Publicity</a></i>
+                </div>
+                <div class="col-lg-4 footer-links">
+                    <p class="">Useful Links</p><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Home</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> About</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Domains</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Events</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Team</a></i><br>
+                    <i class="bi bi-arrow-right-circle"><a href="" class="text-dark"> Contact</a></i>
+
+                </div>
+            </div>
+            <hr>
+            <div class="row text-center">
+                <div class="col-lg-6">
+                    <p class="copyright">&#169 2023 All Rights Reserved</p>
+                </div>
+                <div class="col-lg-6 social-footer-icons">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-github"></i>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <p>Created By SVPCET ACM Student Chapter</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== Owl Carousel JS ===============-->
+
+    <!--=============== Owl jQuery JS ===============-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+
+    </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
